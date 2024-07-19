@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <h1>Notes App</h1>
+            <input type="text" id="search" placeholder="Search notes...">
+        </header>
+        <section id="note-form">
+            <input type="text" id="note-title" placeholder="Title">
+            <textarea id="note-content" placeholder="Take a note..."></textarea>
+            <input type="text" id="note-tags" placeholder="Tags (comma separated)">
+            <button id="create-note">Create Note</button>
+        </section>
+        <section id="notes">
+            <!--Notes will be dynamically inserted here -->
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
